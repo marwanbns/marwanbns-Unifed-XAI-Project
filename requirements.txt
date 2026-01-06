@@ -1,13 +1,12 @@
 librosa==0.11.0
 lime==0.2.0.1
 matplotlib==3.10.8
-numpy==2.4.0
+numpy==1.26.4
 opencv_python==4.10.0.84
 Pillow==12.1.0
 shap==0.46.0
 scikit-image==0.26.0
 streamlit==1.52.2
 tensorflow==2.15.0
-tensorflow_intel==2.15.0
 torch==2.9.1
 torchvision==0.24.1
