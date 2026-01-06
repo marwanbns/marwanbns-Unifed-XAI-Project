@@ -14,7 +14,11 @@ The application allow the user to:
 - The goal is not only to perform classification, but also to understand and visualize why models make their decisions.
 
 ## Installation 
+> [!WARNING]
+> Necessite d'avoir python 3.11 pour ne pas avoir de conflits entre les versions des librairies.
 ```bash
+conda create -n xai python==3.11 <- environnement
+conda activate xai
 git clone https://github.com/marwanbns/marwanbns-Unifed-XAI-Project
 cd marwanbns-Unifed-XAI-Project
 pip install -r requirements.txt
