@@ -7,11 +7,11 @@ This projects aim to refactor and integrates two existing Explainable AI systems
 2. Chest X-ray Analysis (Lung cancer detection)
 
 The application allow the user to:
-Upload an audio (.wav) or image (.png / .jpg) files
-Select a compatible classification model
-Apply one or multiple Explainable AI (XAI) techniques between (Lime, Shap and GradCam)
-Compare explanations side by side in an interactive interface
-The goal is not only to perform classification, but also to understand and visualize why models make their decisions.
+- Upload an audio (.wav) or image (.png / .jpg) files
+- Select a compatible classification model
+- Apply one or multiple Explainable AI (XAI) techniques between (Lime, Shap and GradCam)
+- Compare explanations side by side in an interactive interface
+- The goal is not only to perform classification, but also to understand and visualize why models make their decisions.
 
 ## Installation 
 ```bash
@@ -85,8 +85,6 @@ C:.
                 gradcam_image.py
 ```
 
-## Start the application
-
 
 ## How to Use the Interface
 Open a command invite (cmd)
@@ -94,14 +92,14 @@ Open a command invite (cmd)
 streamlit run app.py
 ```
 
-1. Single Run Tab
+1. **Single Run Tab**
 - Upload an audio or image file
 - The system automatically detects the input type
 - Select a compatible model
 - Select one XAI method
 - Run inference and visualize the explanation
 
-2. Comparison Tab
+2. **Comparison Tab**
 - Upload a single input
 - Select a model
 - Select multiple XAI techniques
